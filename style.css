@@ -1,7 +1,17 @@
-.challenge-2 {
-  font-family: roboto;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
   background-color: green;
 }
+
+header {
+  background-color: rgb(92, 92, 92);
+}
+
 nav li, nav a {
   display: inline-block;
 }
@@ -11,10 +21,17 @@ nav {
 }
 nav a {
   text-decoration: none;
+  color: black;
   padding: 40px 5px;
-  color: #FFFFFF;
 }
 nav a:hover {
   background-color: rgb(130, 255, 187);
-  text-decoration: underline;
+}
+
+.placeholder {
+  background-color: rgb(130, 255, 187);
+  padding: 40px 5px;
+}
+.placeholder p {
+  padding: 0 50px;
 }
